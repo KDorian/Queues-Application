@@ -1,8 +1,19 @@
-import javax.swing.*;
+import java.awt.*;
 
 public class main {
-    private JPanel panel;
-    private JButton insertButton;
-    private JButton deleteButton;
-    private JTextArea textArea1;
+
+    public static void main(String[] args){
+
+        mainFrame Fr = new mainFrame();
+
+        Fr.setLocationRelativeTo(null);
+
+        Fr.setVisible(true);
+
+        Fr.setSize(600,400);
+        Fr.setResizable(false);
+
+
+    }
+
 }
